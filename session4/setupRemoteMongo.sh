@@ -1,0 +1,1 @@
+"mongodb://cluster0-shard-00-00.myts5.mongodb.net:27017,cluster0-shard-00-01.myts5.mongodb.net:27017,cluster0-shard-00-02.myts5.mongodb.net:27017/?replicaSet=atlas-kh202q-shard-0" --ssl --authenticationDatabase admin --username 171ankit2020 --password Ankit@123

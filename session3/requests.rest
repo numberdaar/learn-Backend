@@ -1,0 +1,8 @@
+GET http://localhost:8082/
+
+###
+GET http://localhost:8082/currency
+Authorization:LetmeIn
+###
+GET http://localhost:8082/users/search?gender=59
+Authorization: LetmeIn

@@ -1,0 +1,35 @@
+GET http://localhost:8082/
+###
+GET http://localhost:8082/currency
+###
+GET http://localhost:8082/users
+Authorization: LetmeIn
+
+###
+POSt http://localhost:8082/blogs
+Content-Type: application/json
+
+{
+    "title" : "today kahar",
+    "author" : ["AnkitDalal"],
+    "content" : "7 dead body found in village",
+    "publishedAt" : null
+}
+
+
+###
+Get http://localhost:8082/blogs
+
+###
+Get http://localhost:8082/blogs/66e439020a752813c528b52e
+
+###
+DELETE  http://localhost:8082/blogs/66e4391b0a752813c528b530
+
+###
+PATCH  http://localhost:8082/blogs/66e8fd21dc0a0790f5969191
+Content-Type: application/json
+
+{
+    "title": "today tadak"
+}
